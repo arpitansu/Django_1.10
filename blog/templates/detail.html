@@ -1,0 +1,14 @@
+{% extends 'navBar.html' %}
+{% load static %}
+{% block title %}{{blogId.title}}{% endblock %}
+{% block blog %}
+	<link rel="stylesheet" href="{% static 'blog/style.css' %}">
+	<div class="details container">
+		<div class="col-md-12">
+			<span class="thumbnail">
+				<h1 class="text-center">{{blogId.title|safe}}</h1>
+				<p>{{blogId.body|safe}}</p>
+			</span>
+		</div>
+
+	{% endblock %}

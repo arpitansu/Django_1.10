@@ -1,0 +1,44 @@
+
+body{
+	background: white url("../images/background.png");
+	padding-top: 70px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.container{
+
+	margin-top: 10px;
+}
+
+/*the css for blog page starts here*/
+.thumbnail{
+	/*width: 2;*/
+	height: 200px;
+	overflow: hidden !important;
+}
+.thumbnail p{
+	padding : 10px;
+	text-align: justify;
+}
+
+/*the css for blogc page ends here*/
+
+
+
+
+/*the css for blog/details page starts here*/
+
+.details p{
+	padding: 20px;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 25px;
+}
+.details .thumbnail{
+	height: auto;
+	display:  block;
+	overflow: visible;
+}
